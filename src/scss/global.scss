@@ -1,0 +1,128 @@
+$light-pink: #f0427f;
+$dark-purple: #68318d;
+$white: #fff;
+$box-shadow: #d9d9d9;
+$border-color: #eaeaea;
+
+.para-text {
+  color: rgb(148, 148, 148);
+  text-shadow: 0.2px 0.2px;
+  font-size: 13px;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flex-start-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex-end-center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-evenly-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.flex-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.txt-style{
+  color: rgb(77, 77, 77);
+font-size: 13px;
+font-weight: bold;
+}
+.txt-bold-style{
+  color: rgb(77, 77, 77);
+font-weight: bold;
+text-shadow: 0.2px 0.2px 0.2px;
+font-family:sans-serif 
+
+
+
+}
+
+
+.switch{
+  .slider:before {
+    font-family: sans-serif;
+    font-size: 11px;
+
+  }
+}
+
+
+
+
+@media only screen and (max-width: 484px) {
+  .txt-style{
+  font-size: 11px;
+  }
+
+  .txt-bold-style{
+  font-size: 11px;
+}
+  .max-icon{
+    width: 16px;
+    height: 16px;
+  }
+  .arrow-icon{
+    width: 13px;
+  }
+
+  .lock-icon{
+    width: 13px;
+    height: 16px;
+  }
+  .switch-custom {
+    width: 58px !important;
+    height: 20px !important;
+    left: 9px;
+    padding: 0px;
+    .slider:before {
+      position: absolute;
+      height: 20px;
+      width: 25px;
+      left: 1px;
+      bottom: 0px;
+      background-color: #682f8e;
+      -webkit-transition: 0.4s;
+      -o-transition: 0.4s;
+      transition: 0.4s;
+      border-radius: 20px;
+      color: #fff;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 9px;
+      font-family: Verdana, sans-serif;
+      /* padding-left: 8px; */
+      /* padding-top: 5px; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+    }
+  }
+}
